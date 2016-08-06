@@ -1,4 +1,30 @@
 
+.row {
+	text-align:center;
+	margin: 20px;
+	padding-left: 25px;
+	padding-bottom: 2px;
+	padding-right: 25px;
+	padding-top: 2px;
+
+}
+
+div.thumbnail {
+	display:inline-block;
+	float:none;
+	text-align:left;
+	margin-right:-4px;
+	border: 3px solid #c2d1ee;
+	border-radius: 5px;
+	width: 80%;
+	/*text-align: center;*/
+} 
+//
+
+
+/*div.caption {
+	text-align: center;
+}*/
 
 
 /*body {
@@ -49,4 +75,4 @@ li {
 	margin: 1%;
 	background-color: blue;
 	padding: 0.5em 0;
-}*/
+}
