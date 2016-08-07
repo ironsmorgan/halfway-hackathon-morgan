@@ -8,6 +8,8 @@
 				<meta name="viewport" content="width=device-width, initial-scale=1">
 
 				<title>Morgan's Halfway Hackathon</title>
+
+				<link rel="icon" href="smallicon.png">
 				
 
 
@@ -25,14 +27,13 @@
 
     		/* Create the parallax scrolling effect */
     		background-attachment: fixed;
-    		background-position: center;
     		background-repeat: no-repeat;
     		background-size: cover;
 }
 
 			.parallax h1 {
 				text-align: center;
-				padding-top: 200px;
+				padding-top: 300px;
 				padding-bottom: 10px;
 				text-transform: uppercase;
 			}
@@ -40,26 +41,37 @@
 			.parallax p {
 				text-align: center;
 				padding: 20px;
+				padding-bottom: 300px;
 				text-transform: uppercase;
 			}
 		
 		</style>
 		</head>
 
+<header>	
+	<div class="container" id="header">
+  		<img class="center-block" src="logo.png"/>
+	</div>
+</header>	
 <body>
-
+<div class="center-block">
 	<div class="parallax">
 				<h1 id="demo"><strong>G'day Mate</strong></h1>
 				<p>Welcome to Morgan's Halfway Hackaton</p>
 	</div>
-
-	<div id="available_intro"
+</div>
 	
-		<h2>Available Options</h2>
+		<div class="container">
+				<div class="row">
+				  <div class="span3"></div>
+  					<div class="span6">
+  						<h2>Available Options</h2>
 
-		<p>Artisan typewriter migas DIY, pinterest truffaut vegan franzen keytar bespoke cliche echo park. <strong><em>Drinking vinegar bitters organic,</em></strong> kickstarter post-ironic tumblr ugh +1 master cleanse authentic tilde mixtape literally keffiyeh blog</p>
-	</div>
-
+						<p>Artisan typewriter migas DIY, pinterest truffaut vegan franzen keytar bespoke cliche echo park. <strong><em>Drinking vinegar bitters organic,</em></strong> kickstarter post-ironic tumblr ugh +1 master cleanse authentic tilde mixtape literally keffiyeh blog</p>
+					</div>
+  				  <div class="span3"></div>
+  				</div>
+			</div>
 
 
 
@@ -112,9 +124,7 @@
 		
 
 			<div class="container">
-				<div class="row">
-					<div class="col-md-offset-3"> <img src="vista_las_palmas_beach_large_600x350.jpg"> </div>
-				</div>
+  					<img class="center-block" src="beach_walk_default_image_600x350.jpg" />
 			</div>
 
 			<!-- </div>
@@ -210,6 +220,24 @@
     			"Hello " + person + "!";
 			}
 
+		// var today = new Date ();
+		// var hoursNow = today.getHours();
+		// var greeting;
+
+		// if (hoursNow > 18) {
+		// 	greeting = "Have a good evening!";
+		// } else if (hourNow > 12) {
+		// 	greeting = "Good afternoon";
+		// } else if (hourNow < 0) {
+		// 	greeting = "Good morning";
+		// } else {
+		// 	greeting = "Welcome";
+		// }
+
+		// document.getElementById("demo").innerHTML = greeting + person + "!";
+
+
+		//change copyright year in footer to current year
 		var today = new Date();
 		var year = today.getFullYear();
 
